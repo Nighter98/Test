@@ -70,7 +70,7 @@ if __name__ == "__main__":
             # telling the `host` that we are the `target`
             spoof(host, target, verbose)
             # sleep for one second
-            time.sleep(1)
+            time.sleep(2)
     except KeyboardInterrupt:
         print("[!] Detected CTRL+C ! restoring the network, please wait...")
         restore(target, host)
